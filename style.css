@@ -1,5 +1,10 @@
 body {
     font-size: 14px;
+    background-image: url(https://pngicon.ru/file/uploads/gorizontalnyj-uzor.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .heading {
@@ -20,4 +25,32 @@ body {
     font-style: italic;
     text-decoration: underline;
     letter-spacing: 0.2em;
+}
+
+.cat {
+    width: 500px;
+    float: right;
+}
+
+.cat2 {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    width: 90%;
+    margin: auto; 
+}
+
+a {
+    color: coral;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
 }
